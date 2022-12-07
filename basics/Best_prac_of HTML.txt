@@ -1,0 +1,4 @@
+1.When the text refers to the definition of a word instead of representing its semantic meaning. (The title of a work, such as the name of a book or movie, should use <cite>.)
+
+2. -You should learn where to apply <i> tag and <em>
+   -You should keep remeber <b>(bold tag) and <strong>
