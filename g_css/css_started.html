@@ -17,7 +17,20 @@
             background-color: #F4CE6A;
         }
         /* class&id selectors */
+        .warning {
+            background-color: #FF9347;
+            color: #4a4a4a;
+        }
         /* and selectors (chained ) */
+        li.bg-black.text-orange{
+            background-color: rgb(0, 0, 0);
+            color: #FF9347;
+        }
+        li.bg-black{
+            background-color: #000000;
+
+        }
+
         /* inside and element */
         /* direct child */
 
@@ -29,10 +42,10 @@
     <div>Lorem ipsum dolor sit amet consectetur.</div>
     <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste explicabo, iure blanditiis accusantium amet sed atque! Mollitia suscipit consectetur exercitationem necessitatibus!</span>
     <ul>
+        <li class="warning">NOthing just div with numbers</li>
+        <li class="bg-black text-orange">NOthing just div with numbers</li>
         <li>NOthing just div with numbers</li>
-        <li>NOthing just div with numbers</li>
-        <li>NOthing just div with numbers</li>
-        <li>NOthing just div with numbers</li>
+        <li class="bg-black">NOthing just div with numbers</li>
         <li>NOthing just div with numbers</li>
         <li>NOthing just div with numbers</li>
     </ul>
