@@ -21,6 +21,13 @@
             background-color: #FF9347;
             color: #4a4a4a;
         }
+        #danger {
+        background-color: #e93916;
+        color: #FFFFFF;
+      }
+
+
+
         /* and selectors (chained ) */
         li.bg-black.text-orange{
             background-color: rgb(0, 0, 0);
@@ -28,6 +35,12 @@
         }
         li.bg-black{
             background-color: #000000;
+
+        }
+        li#unique.bg-black{
+            background-color: #000000;
+            color: rgb(1, 255, 255);
+            /*if you want to chain with the id with the class then you have to write (#) in first place then put the class name otherwise it will not work */
 
         }
         /* combined selectors */
@@ -52,15 +65,15 @@
 </head>
 <body>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt natus asperiores quibusdam repellendus sapiente at possimus vitae a. Animi, inventore dolorem?</p>
-
+    <p id="unique">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe dolorem beatae quasi.</p>
     <div>Lorem ipsum dolor sit amet consectetur.</div>
     <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste explicabo, iure blanditiis accusantium amet sed atque! Mollitia suscipit consectetur exercitationem necessitatibus!</span>
-    <ul>
-        <li class="warning">NOthing just div with numbers</li>
+    <ul class="warning">
+        <li>NOthing just div with numbers</li>
         <li class="bg-black text-orange">NOthing just div with numbers</li>
         <li>NOthing just div with numbers</li>
         <li class="bg-black">NOthing just div with numbers</li>
-        <li>NOthing just div with numbers</li>
+        <li class="bg-black" id="unique">NOthing just div with numbers</li>
         <li>NOthing just div with numbers</li>
     </ul>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto temporibus, sequi, nostrum cum officia rem corporis animi ducimus magni neque soluta libero?</p>
