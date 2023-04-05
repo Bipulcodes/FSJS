@@ -9,3 +9,20 @@ p{
     border-style: double; 
     this are basically the enlarge form of the border property*/
 }
+.bordr{
+    border-width: 3px;
+    border-style: solid dotted double dashed;
+    border-color: #00ffff;
+    height: 400px;
+    width: 600px;
+    background-color: #d7ac28;
+    color: #a140b0;
+    text-align: center;
+    
+}
+.bordr:hover{
+    text-decoration-line:underline;
+    text-decoration-color: #831d93;
+
+}
+
