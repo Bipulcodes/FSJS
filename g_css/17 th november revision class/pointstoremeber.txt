@@ -1,0 +1,3 @@
+In this class i learnt about how to link an external css file and learnet about how a property works and how a can we break a property and make it more useful according to our use.
+Learnt about text-allign property.
+Thank you!!
