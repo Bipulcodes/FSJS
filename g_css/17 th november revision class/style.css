@@ -1,0 +1,11 @@
+body{
+    background:#4a4a4a;
+    color: #faebd7;
+}
+p{
+     border: 2px solid #b07f40; /*this is the short hand of the border properties */
+    /* border-color: #b07f40;
+    border-width: 2px;
+    border-style: double; 
+    this are basically the enlarge form of the border property*/
+}
