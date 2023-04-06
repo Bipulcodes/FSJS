@@ -6,3 +6,21 @@
 /* div+p{
     color:beige
 } */
+/* psuedo selector */
+.warning::before{
+    content:"Danger";
+    color:antiquewhite;
+    font-size: 12px;
+    display:inline;
+}
+.after-warning:hover::after{
+    content: "this is after";
+    display: block;
+    color: blueviolet;
+    font-size: 10px;
+}
+input[type=text]:focus{
+    background-color: #5ad4c3;
+    color: #d2691e;
+    /* using this you can apply focus property to a particular input form with-out usign this class and id */
+}
