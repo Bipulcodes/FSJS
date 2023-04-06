@@ -1,0 +1,9 @@
+In this session I learnet more specifically this was a revision class so 
+again learnt about selector with some more funny example and most importantly I learnt how to use a state without specifing the class
+ like
+.class[value=text]:focus{
+
+.... some properties
+
+}
+got more clarity about n-th child
