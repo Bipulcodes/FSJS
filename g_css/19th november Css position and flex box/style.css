@@ -1,0 +1,19 @@
+body{
+    background-color: #4a4a4a;
+    border:2px solid beige;
+    height: 500px;
+}
+.position{
+    border: 1px solid #b85a5a;
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+#three{
+    position: sticky;
+    /* relative,,,,Absolute */
+    top: 0px;
+    /* right: 10px; */
+}
