@@ -1,0 +1,35 @@
+body{
+    background-color: #4a4a4a;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #077f37;
+    margin: 3px;
+    text-align: center;
+}
+body{
+    display: flex;
+}
+@media(max-width:499px){
+    body{
+        background-color: yellowgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(min-width:501px) and (max-width:766px) {
+    body{
+        background-color: rgb(238, 93, 238);
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .box{
+        border: 7px solid blue;
+        border-radius: 60px;
+    }
+    
+}
