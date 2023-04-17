@@ -45,5 +45,10 @@ hero{
     width: 40%;
 }
 .upperimage{
-    margin: 10px;
+    margin-bottom: 06px;
+    gap: 5px;
+}
+.left-container button:hover{
+    background-color: #faebd7;
+    color: #3B855B;
 }
