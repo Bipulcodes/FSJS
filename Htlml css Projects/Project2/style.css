@@ -84,21 +84,21 @@ main section{
 /* Right main section */
 .yellowbox , .greeenbox{
     position: absolute;
-    margin: 0;
+    right: 30%;
 }
 .greeenbox{
     width: 35%;
-    bottom: 30px;
-    /* right: 10px; */
+    bottom: -8px;
+    right: 35px;
 }
 .yellowbox{
     width: 30%;
     bottom: 20px;
-    /* right: 10px; */
+    right: 1px;
 }
 .doctor{
     position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 90%;
+    right: 26px;
+    bottom: 2px;
+    height: 70%;
 }
