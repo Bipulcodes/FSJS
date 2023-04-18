@@ -25,7 +25,7 @@ hero{
 }
 .right-container{
   width: 60%;
-  margin-left: 5%; 
+  margin-left:15%; 
 }
 .left-container h1{
     font-size: 70px;
@@ -45,8 +45,10 @@ hero{
     width: 40%;
 }
 .upperimage{
-    margin-bottom: 06px;
-    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 15px;
 }
 .left-container button:hover{
     background-color: #faebd7;
