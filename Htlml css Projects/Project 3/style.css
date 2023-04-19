@@ -38,13 +38,18 @@ main{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 10%;
 }
 main section{
     width: 50%;
     border: 1px solid violet;
+    color:#ffffff;
 }
-.rightsection{
-   
+main section h1{
+    font-size: 84px;
+    margin-top: 10% 0 5%;
+    font-weight: 800;
+    color:#ffffff;
 }
