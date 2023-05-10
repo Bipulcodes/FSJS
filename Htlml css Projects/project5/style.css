@@ -1,0 +1,44 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 30px 5%; */
+}
+nav ul li:first-child::after{
+    content: "\0002C7";
+    color: white;
+    position: relative;
+    width: 100px;
+    top: 9px;
+    left: 5px;
+
+}
+.line{
+    position: relative;
+    border: 1px solid #b98282;
+    left: 60px;
+    height: 50px;
+    
+}
+.list{
+    display: flex;
+    color: white;
+    /* margin-right: 569px; */
+    list-style-type: none;
+    gap: 05%;
+}
