@@ -9,7 +9,8 @@
 }
 body{
     max-width: 1440px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 div img{
     height: auto;
@@ -20,6 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    height: 10vh;
 }
 nav ul li:first-child::after{
     content: "\0002C7";
@@ -33,15 +35,62 @@ nav ul li:first-child::after{
 }
 .line{
     position: relative;
-    border: 1px solid #b98282;
-    left: 60px;
+    border: 1px solid #c86cd0;
+    left: -100px;
     height: 50px;
     
 }
+
+.button-small{
+    left: 10px;
+}
+button{
+    background-color: #b01aae;
+    border-radius: 5px;
+    padding:10px 35px;
+    color: #ffffff;
+    border: 0;
+}
 .list{
     display: flex;
-    color: violet;
+    color: rgb(255, 251, 255);
     list-style-type: none;
     gap: 5%;
 }
+ .grow-list{
+   right: 20px;
+ }
+.hero{
+    height: 90vh;
+    width: 100vh;
+    background-image: url(./assets/bg.png);
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-heading{
+    font-size: 2em;
+    width: 40vw;
+    text-align: center;
+    color: #ffffff;
+}
+.hero-description{
+    position: relative;
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffffff;
+}
+.button-large{
+    position: relative;
+    font-size: 20px;
+    border-radius: 10px;
+    bottom: -2.5%;
+}
+
+
 /* You can only modify the CSS file */
