@@ -1,0 +1,17 @@
+body{
+    background-color: #4a4a4a;
+    color: antiquewhite;
+}
+.box{
+    max-height: 100px;
+    border:1px solid black;
+    /* thiis can take only and only this much amount of space if  the content got increase then it will overflow to prevent this we can use content overflow hidden if the content has no importance */
+    
+}
+
+.box-2{
+    min-height: 90px;
+    min-width: 100px;
+    border: 1px solid yellow;
+    /* this thing will thake minimum this height but if the content increase then it will change its height and widht according to its */
+}

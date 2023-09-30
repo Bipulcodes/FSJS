@@ -1,0 +1,16 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(Red,Purple);
+    background-image: linear-gradient(to right, red,blue );
+    background-image: linear-gradient(to bottom left, red,blue );
+    /* background-image: linear-gradient(to bottom, orange,yellow); */
+    /* only last staement will pick */
+}
+.anotherdiv{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: radial-gradient(red,green,purple);
+}
