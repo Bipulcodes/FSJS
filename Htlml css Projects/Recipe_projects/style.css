@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#navList{
+    list-style: none;
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.nav-container{
+    width: 100vw;
+    background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
+    color: #FFEFBA;
+}
+a{
+    text-decoration: none;
+    color: #f4d572;
+}
+a:hover{
+    color: rgb(218, 193, 160);
+}
+#navItemsRight{
+    display: flex;
+    gap: 22px
+}
+/* #brandTitle{
+    font-size: 2.8rem;
+} */
+
+.content-Box{
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    -webkit-box-shadow: 9px 6px 29px 0px rgba(150,196,237,1);
+    -moz-box-shadow: 9px 6px 29px 0px rgba(150,196,237,1);
+    box-shadow: 9px 6px 29px 0px rgba(150,196,237,1);
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.6s linear 0s;
+    
+}
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #77696977;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+} 
+
+.rightbox .overlay span{
+   color: #e6a6a6cc;
+   font-size: 1.02rem;
+}
+.rightbox img{
+    height: 300px;
+    border-radius: 15px;
+    transition: all 0.6s linear 0s;
+}
+.rightbox:hover{
+    transform: scale(1.09);
+}
+
+
+.footerBox{
+    width: 100vw;
+    background: #dd3e54;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+    min-height: 03vh;
+    /* border:3px solid #dd3e54; */
+    text-align: center;
+    font-size: 0.5rem;
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftbox h2{
+    font-size: 2rem;
+}
+
+.ingbox{
+    font-size: 1.2rem
+}
+
+.recipebox{
+    font-size: 1.2rem;
+}

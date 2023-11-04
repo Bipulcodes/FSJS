@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D_Transform</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 350px;
+            background-color: beige;
+            border: 3px dotted  rgb(135, 206, 235);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            transition: all 1.8s linear 1s;
+        }
+        .box:hover{
+            background-color: #50a6bc;
+            border: 3px dotted  #9c57e0;
+            height: 410px;
+            width: 360px;
+            /* transform: rotate(20deg); */
+            transform: scale(1.5);
+            font-size: 36px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">Something in the Box</div>    
+</body>
+</html>
