@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D transform</title>
+    <style>
+        div{
+            height: 150px;
+            width: 145px;
+            background-color: #c06c6c;
+            border: 2px solid #5a2929;
+        }
+        .transformed{
+            margin-left: 250px;
+            transform: perspective(200px) scaleZ(1) rotateY(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="static"></div>
+    <div class="transformed"></div>
+
+</body>
+</html>

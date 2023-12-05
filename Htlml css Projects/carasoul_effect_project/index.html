@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carasoul Effect</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            place-items: center;
+            background: #c31432;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        html{
+            font-size: 62.5%;
+        }
+
+        .container-img{
+            width: 60vw;
+            height: 50rem;
+            border-radius: 1rem;
+            background-image: url(https://images.unsplash.com/photo-1682686580452-37f1892ee5e8?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            object-fit: fill;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            animation: gallery 24s linear infinite;
+        }
+
+        @keyframes gallery{
+            10%{
+                background-image:url(https://images.unsplash.com/photo-1682687982107-14492010e05e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+            }
+
+            20%{
+                background-image:url(https://images.unsplash.com/photo-1682687220336-bbd659a734e7?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+            }
+            30%{
+                background-image:url(https://images.unsplash.com/photo-1663784969369-8f891eb3739b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+            }
+            50%{
+                background-image:url(https://plus.unsplash.com/premium_photo-1700577888245-9729a4fe6040?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+            }
+            60%{
+                background-image:url(https://images.unsplash.com/photo-1701275237797-17ae47d4192a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+            }
+            70%{
+                background-image:url(https://images.unsplash.com/photo-1701112657904-0513f3813b8a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+
+            }
+            80%{
+                background-image:url(https://images.unsplash.com/photo-1591910029206-a2379462a30b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+            }
+
+            90%{
+                background-image:url(https://images.unsplash.com/photo-1606163787096-1e3ae41fadfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                object-fit: fill;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-img">
+    </div>
+</body>
+</html>
